@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/success/success",
+    "pages/sn/sn",
+    "pages/info/info"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "克瑞斯托科技",
+    "navigationBarBackgroundColor": "#EDEDED",
+    "backgroundColor": "#EDEDED"
+  },
+  "tabBar": {
+    "color": "black",
+    "backgroundColor": "#EDEDED",
+    "selectedColor": "",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "登记",
+        "iconPath": "images/register.png",
+        "selectedIconPath": "images/register.png"
+      },
+      {
+        "pagePath": "pages/sn/sn",
+        "text": "序列号",
+        "iconPath": "images/sn.png",
+        "selectedIconPath": "images/sn.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "resizable": true,
+  "style": "v2",
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

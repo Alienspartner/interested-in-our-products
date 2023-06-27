@@ -1,0 +1,29 @@
+<view class="page">
+    <view class="weui-form">
+      <view class="weui-form__text-area">
+        <view class="weui-form__title">Serial number query</view>
+        <view class="weui-form__desc">序列号查询</view>
+      </view>
+      <view class="weui-form__control-area">
+      <view class="weui-cells__group weui-cells__group_form">
+            <view class="weui-cells__title">Input</view>
+            <view class="weui-cells weui-cells_form">
+              <view class="weui-cell">
+                <view class="weui-cell__hd"><label class="weui-label">SN</label></view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" bindinput="changeSN" placeholder="请输入序列号"/>
+                </view>
+              </view>
+            </view>
+        </view>
+      </view>
+      <view class="weui-form__opr-area">
+        <button type="primary" bindtap="search">确定</button>
+      </view>
+      <view class="weui-form__tips-area">
+        <view class="weui-form__tips">
+          点击确定立即查询
+        </view>
+     </view>
+   </view>
+ </view>
